@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutoXposedInit.iml" filepath="$PROJECT_DIR$/AutoXposedInit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoxposedinit/autoxposedinit.iml" filepath="$PROJECT_DIR$/autoxposedinit/autoxposedinit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoxposedinit-annotations/autoxposedinit-annotations.iml" filepath="$PROJECT_DIR$/autoxposedinit-annotations/autoxposedinit-annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoxposedinit-processor/autoxposedinit-processor.iml" filepath="$PROJECT_DIR$/autoxposedinit-processor/autoxposedinit-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildSrc/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+    </modules>
+  </component>
+</project>
