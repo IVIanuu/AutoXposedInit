@@ -16,7 +16,17 @@
 
 package com.ivianuu.autoxposedinit.sample
 
+import com.ivianuu.autoxposedinit.AutoXposedInit
+import de.robv.android.xposed.IXposedHookInitPackageResources
+import de.robv.android.xposed.XposedBridge
+import de.robv.android.xposed.callbacks.XC_InitPackageResources
+
 /**
  * @author Manuel Wrage (IVIanuu)
  */
-class MyHookCmdInit : ICmd
+@AutoXposedInit
+class MyPackageResourcesInit : IXposedHookInitPackageResources {
+    override fun handleInitPackageResources(resparam: XC_InitPackageResources.InitPackageResourcesParam?) {
+        XposedBridge.log("hello from my package resources init")
+    }
+}
