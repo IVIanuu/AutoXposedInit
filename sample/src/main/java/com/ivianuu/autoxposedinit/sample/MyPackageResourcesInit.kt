@@ -21,9 +21,6 @@ import de.robv.android.xposed.IXposedHookInitPackageResources
 import de.robv.android.xposed.XposedBridge
 import de.robv.android.xposed.callbacks.XC_InitPackageResources
 
-/**
- * @author Manuel Wrage (IVIanuu)
- */
 @AutoXposedInit
 class MyPackageResourcesInit : IXposedHookInitPackageResources {
     override fun handleInitPackageResources(resparam: XC_InitPackageResources.InitPackageResourcesParam?) {
