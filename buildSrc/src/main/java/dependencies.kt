@@ -8,11 +8,11 @@ object Versions {
     const val versionCode = 1
     const val versionName = "1.0"
 
-    const val androidGradlePlugin = "3.1.2"
+    const val androidGradlePlugin = "3.1.3"
 
-    const val autoService = "1.0-rc3"
+    const val autoService = "1.0-rc4"
 
-    const val kotlin = "1.2.41"
+    const val kotlin = "1.2.51"
     const val mavenGradlePlugin = "2.1"
     const val support = "28.0.0-alpha3"
     const val xposed = "82"
